@@ -86,6 +86,9 @@ alias ...='cd ../..'
 alias ll='ls -lah'
 alias reload='exec zsh -l'
 
+# Shipyard
+alias shipyard='python3 ~/dev/personal/shipyard/scripts/shipyard.py'
+
 # macOS supplies ssh-agent; let SSH load keys when a connection needs them.
 # Plugins are installed explicitly, never downloaded during shell startup.
 ZSH_AUTOSUGGEST_STRATEGY=(history)
